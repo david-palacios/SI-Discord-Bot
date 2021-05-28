@@ -34,3 +34,22 @@ module.exports = {
         }
     },
 };
+
+//todo
+// client.on('message', message => {
+//     if (message.content === 'I love SI') {
+//         message.react("❤️");
+//     }
+// })
+
+// // react to SI leaders SI session announcements
+// client.on('message', message => {
+//     const thisMember = message.member;
+//     if (thisMember.roles.cache.some(role => role.name === 'admin')) {
+//         const emojis = ["🎉", "💯", "☝", "🙌", "👍", "🤩", "😸"];
+//         const random = Math.floor(Math.random() * emojis.length);
+//         if (message.content.toLowerCase() === 'si session') {
+//             message.react(emojis[random]);
+//         }
+//     }
+// })

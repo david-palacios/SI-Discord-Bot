@@ -33,10 +33,4 @@ for (const file of eventFiles) {
 }
 
 
-client.on('message', msg => {
-    if (msg.content === 'I love SI') {
-        msg.react("❤️");
-    }
-})
-
 client.login(bot_token);
